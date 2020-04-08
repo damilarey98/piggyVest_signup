@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard - PiggyVestt</title>
+    <link rel="stylesheet" href="./css/style.css" type="text/css">
+</head>
+<body>
+    <div id="main-body">
+        <div class="mid-body">
+            <a href="https://www.piggyvest.com">
+                <img src="./image/piggyvest-logo.svg" alt="Piggy Logo" class="pix">
+            </a>
+            <div class="header">
+                <header class="top-head">
+                    <h1 class="word">Create a Secure Account</h1>
+                    <p class="greet">Welcome to the future of Savings &amp; Investments</p>
+                </header>
+                <form class="details" action="/" method="POST">
+                    <div class="for-all">
+                        <label class="for-all-1" for="">Full Name</label>
+                        <input class="for-all-2" name="fullname" type="text" placeholder="Full Name" value="">
+                    </div>
+                    <div class="for-all">
+                        <label class="for-all-1" for="">Email Address</label>
+                        <input class="for-all-2" name="email" type="email" placeholder="Email Address" value="">
+                    </div>
+                    <div class="for-all">
+                        <label class="for-all-1" for="">Phone Number</label>
+                        <input class="for-all-2" name="phone" type="tel" placeholder="Phone Number" value="">
+                    </div>
+                    <div class="for-all">
+                        <label class="for-all-1" for="">Password</label>
+                        <input class="for-all-2" name="password" type="password" placeholder="Password" value="">
+                    </div>
+                    <div class="for-all">
+                        <label class="for-all-1" for="">Referrer Phone or Promo Code (Optional)</label>
+                        <input class="for-all-2" name="promocode" type="text" placeholder="Referrer Phone Or Code" value="">
+                    </div>
+                    <div class="for-all">
+                        <label class="for-all-1" for="">How Did You Hear About Us? (Optional)</label>
+                        <div class="input-box">
+                            <input class="for-all-2" list="refer" type="text" placeholder="Click To Select" value="">
+                            <datalist id="refer"> 
+                                <option value="Facebook">
+                                <option value="Twitter">
+                                <option value="Instagram">
+                                <option value="Friend/Family/Coworker Referrer">
+                                <option value="Google search">
+                                <option value="Google playstore">
+                                <option value="Online Blog">
+                                <option value="Local Newspaper">
+                                <option value="At an event">
+                                <option value="Other">
+                            </datalist>
+                        </div>
+                    </div>
+                        <div class="btn-body items-end">
+                            <button class="btn" type="submit">Create Account</button>
+                        </div>
+                </form>
+            </div>
+            <a class="login" href="/login">Already have an account? Log In</a>
+    </div>
+    
+</body>
+</html>
+
